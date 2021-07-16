@@ -10,7 +10,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_1 
-		icon = GFX_goal_enc_radio
+		icon = GFX_goal_SBS_GNR
 		ai_will_do = { factor = 1 }
 		x = 17
 		y = 0 
@@ -350,7 +350,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_11
-		icon = GFX_goal_militarifederacia1
+		icon = GFX_goal_DEV_saluting
 		relative_position_id = Deyv_3
 		prerequisite = {
 			focus = Deyv_3
@@ -486,7 +486,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_18
-		icon = GFX_goal_canadaaa9
+		icon = GFX_goal_DEV_drills
 		relative_position_id = Deyv_17
 		cost = 45
 		prerequisite = {
@@ -1419,7 +1419,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_54
-		icon = GFX_goal_Newyorkbroth1
+		icon = GFX_goal_DEV_Tom
 		cost = 45
 		relative_position_id = Deyv_53
 		prerequisite = {
@@ -1458,7 +1458,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_55
-		icon = GFX_goal_Newyorkbroth1
+		icon = GFX_goal_DEV_Bill
 		cost = 45
 		relative_position_id = Deyv_53
 		prerequisite = {
@@ -1497,7 +1497,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_56
-		icon = GFX_goal_Newyorkbroth1
+		icon = GFX_goal_DEV_Stevie
 		cost = 45
 		relative_position_id = Deyv_53
 		prerequisite = {
@@ -1579,7 +1579,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_58
-		icon = GFX_goal_megatonna11
+		icon = GFX_goal_DEV_Enclave
 		ai_will_do = { factor = 25 }
 		cost = 45
 		prerequisite = {
@@ -1593,14 +1593,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = ESP
-			}
 			every_country = {
 				limit = {
 					OR = {
-						tag = DEV
 						tag = ESP
 					}
 				}
@@ -1609,7 +1604,6 @@ focus_tree = {
 						NOT = { tag = PREV }
 						OR = {
 							tag = DEV
-							tag = ESP
 						}
 						NOT = { has_war_with = PREV }
 					}
@@ -1624,7 +1618,7 @@ focus_tree = {
 	
 	focus = {
 		id = Deyv_59
-		icon = GFX_goal_Enclave12
+		icon = GFX_goal_DEV_Easton
 		cost = 45
 		relative_position_id = Deyv_57
 		prerequisite = {

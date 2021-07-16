@@ -1463,7 +1463,7 @@ focus_tree = {
 	
 	focus = {
 		id = institut_49
-		icon = GFX_goal_Enclave11
+		icon = GFX_goal_INS_Yrk
 		relative_position_id = institut_48
 		prerequisite = { focus = institut_48 }
 		prerequisite = { focus = institut_47 }
